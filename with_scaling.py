@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 # for chi square test 
 from scipy.stats import chi2_contingency
 
-external_df = pd.read_excel('D:/Pinnacle_WorkSpace/CSC_SPV/CIBIL_DATA/External_Cibil_Dataset.xlsx')
-internal_df = pd.read_excel('D:/Pinnacle_WorkSpace/CSC_SPV/CIBIL_DATA/Internal_Bank_Dataset.xlsx')
+external_df = pd.read_excel('/CIBIL_DATA/External_Cibil_Dataset.xlsx')
+internal_df = pd.read_excel('/CIBIL_DATA/Internal_Bank_Dataset.xlsx')
 
 external_df1 = external_df.copy()
 internal_df1 = internal_df.copy()
